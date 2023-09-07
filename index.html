@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 data-testid="slackUserName">Emmanuel Heetah</h1>
+        <img src="slack-profile-picture.png" alt="My Slack Username" data-testid="slackDisplayImage">
+    </header>
+    <main>
+        <section class="data-section">
+            <h2>Current Day of the Week:</h2>
+            <p data-testid="currentDayOfTheWeek"></p>
+        </section>
+        <section class="data-section">
+            <h2>Current UTC Time:</h2>
+            <p data-testid="currentUTCTime"></p>
+        </section>
+        <section class="data-section">
+            <h2>Track:</h2>
+            <p data-testid="myTrack">Frontend Development</p>
+        </section>
+        <section class="data-section">
+            <h2>GitHub URL:</h2>
+            <a href="https://github.com/emmanita20" data-testid="githubURL">Click Here</a>
+        </section>
+    </main>
+    <footer>
+                <h4>Thank you!</h4>        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
